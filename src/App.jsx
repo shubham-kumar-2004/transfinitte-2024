@@ -6,16 +6,15 @@ import AboutUs from './components/AboutUs';
 import Judges from './components/Judges';
 import Sponsors from './components/Sponsors';
 import Faq from './components/Faq';
-import Recap from './components/Recap';
-import Gallery from './components/Gallery';
 import Timeline from './components/Timeline';
 import Footer from './components/Footer';
 import { Toaster } from './components/ui/sonner';
 
+
 function App() {
   return (
     <Router>
-      <Routes>
+      <Routes>  
         {/* Route for home page (renders everything except Recap) */}
         <Route
           path="/"
@@ -28,14 +27,11 @@ function App() {
               <Sponsors />
               <Timeline />
               <Faq />
-              {/* <Recap /> */}
               <Footer />
               <Toaster />
             </>
           }
         />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/timeline" element={<Timeline />} />
       </Routes>
     </Router>
   );

@@ -27,18 +27,18 @@ const Timeline = () => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div className='mx-auto bg-black max-w-[93.194%]'>
+    <div className='flex items-center justify-center bg-black mb-[-8px]'>
       <div className='flex flex-col items-start justify-center'>
-        <div className="flex h-auto py-[70px] px-[46px] justify-between items-start content-start flex-wrap border-r border-l border-r-edge border-l-edge bg-black md:px-10"
+        <div className="flex w-[1342px] h-auto py-[70px] px-[46px] justify-between items-start content-start flex-wrap border-r border-l border-r-edge border-l-edge bg-black md:px-10"
         ref={containerRef}>
         <div className="flex flex-col justify-start max-w-7xl mx-auto py-4 px-4 md:px-8 lg:px-10 ml-0">
-          <div className="mb-4 text-white font-geist text-[4rem] font-normal leading-[60px]">
+          <div className="mb-4 text-white font-geist text-[64px] font-normal leading-[60px]">
             Timeline
           </div>
-          <div className="text-[#A1A1A1] font-geistmono text-[1.125rem] not-italic font-normal leading-[28px]">
+          <div className="text-[#A1A1A1] font-geistmono text-[18px] not-italic font-normal leading-[28px]">
             The provided timeline is tentative and subject to change as necessary.
           </div>
-          <div className="text-white font-geist text-[2rem] font-normal leading-[60px]">
+          <div className="text-white font-geist text-[32px] font-normal leading-[60px]">
             27th October
           </div>
         </div>
@@ -66,7 +66,7 @@ const Timeline = () => {
                 }
                 <div className="flex justify-around flex-wrap gap-5">
                 {item.content.images && item.content.images.map((image, idx) => (
-                  <div className="w-full aspect-auto sm:w-1/2 lg:w-1/3">
+                  <div className="w-full aspect-auto sm:w-1/2 lg:w-1/3 border border-dashed p-2 border-[#454545]">
                   <img
                     key={idx}
                     src={image}
