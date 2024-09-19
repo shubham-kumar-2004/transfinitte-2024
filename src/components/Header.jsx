@@ -17,7 +17,7 @@ const Header = () => {
     });
   };
   return (
-    <div className='flex justify-between items-center h-[72px] bg-black shrink-0 self-stretch border-b-[#EDEDED26] border-b border-solid pl-12 sticky top-0 shadow-md z-50 content-stretch'>
+    <div className='flex justify-between items-center h-max py-5 bg-black shrink-0 self-stretch border-b-[#EDEDED26] border-b border-solid pl-12 sticky top-0 shadow-md z-50 content-stretch'>
       <div className='text-[#A1A1A1] font-geistmono text-sm font-normal leading-[17.5px] tracking-[0.35px] uppercase'>OCT 18-20 2024, GJCH</div>
       <div className='flex flex-row flex-grow gap-1 self-stretch items-center justify-center'>
         <div className='text-white text-center text-xl font-spacegrotesk items-center font-medium leading-5 tracking-[-0.1px] uppercase'> Transfinitte</div>

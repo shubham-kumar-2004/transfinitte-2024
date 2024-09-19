@@ -3,25 +3,23 @@ import { arrowwh, instagram, linkedin, tffooter, x } from '../assets'
 import {
   AlertDialog,
   AlertDialogAction,
-  AlertDialogCancel,
   AlertDialogContent,
   AlertDialogDescription,
   AlertDialogFooter,
   AlertDialogHeader,
-  AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 
 
 const Footer = () => {
   return (
-    <div className='flex items-end justify-center bg-black'>
-      <div className='flex w-[1342px] h-[300px] py-9 px-0 flex-col items-start gap-[36px] border-r border-l border-r-edge border-l-edge bg-black'>
+    <div className='mx-auto bg-black max-w-[93.194%]'>
+      <div className='flex h-auto py-9 px-0 flex-col items-start gap-[36px] border-r border-l border-r-edge border-l-edge bg-black'>
         <div className='flex justify-center items-center self-stretch tf-footer'>
             <img
             src={tffooter}/>
         </div>
-        <div className='w-[full] h-[1.25rem] flex py-0 px-[46px] justify-between items-center self-stretch'>
+        <div className='w-full h-[1.25rem] flex py-0 px-[46px] justify-between items-center self-stretch'>
           <div className='flex justify-center items-center gap-[5px]'>
             <div className='text-[#A1A1A1] font-geistmono text-[1rem] not-italic font-normal leading-normal tracking-[-0.01rem] uppercase'>© 2024 TRANSFINITTE. All Rights Reserved.</div>
             <div className='flex w-fit pb-1 justify-center items-start gap-3 '>
@@ -104,8 +102,6 @@ const Footer = () => {
                 src={arrowwh}
                 className='max-w-none w-fit'/>
               </div>
-              
-
             </div>
           </div>
         </div>
