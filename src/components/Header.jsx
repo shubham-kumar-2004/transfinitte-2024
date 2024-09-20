@@ -6,8 +6,8 @@ import Flip from './Flip';
 
 const Header = () => {
   const handleClick = () => {
+    console.log("Lets see")
     toast("Coming Soon", {
-          
       description:"Tuesday, 8 October 2024, 9:00 AM",// Custom style for description
       style: {
         backgroundColor: '#EDEDED', 

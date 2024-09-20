@@ -13,6 +13,7 @@ import Venue from "./components/Venue";
 function App() {
   return (
     <Router>
+      <Toaster />
       <Routes>
         <Route
           path="/"
@@ -27,7 +28,6 @@ function App() {
                 <Sponsors />
                 <Faq />
                 <Footer />
-                <Toaster />
               </div>
             </>
           }

@@ -24,7 +24,7 @@ const Venue = ({ pin }) => {
       });
     } else {
       gsap.to(".slideshow", {
-        x: "-54%",
+        x: "-59%",
         scrollTrigger: {
           trigger: ".venue",
           scroller: "body",
@@ -37,7 +37,7 @@ const Venue = ({ pin }) => {
     }
   });
   return (
-    <div className="block mx-auto bg-black overflow-hidden venue">
+    <div className="block mx-auto bg-black overflow-hidden venue max-w-[91.467%] sm:max-w-[93.167%] border-l border-r border-l-edge border-r-edge">
       <div className="flex items-start w-fit gap-[4.0625rem] px-[3rem] slideshow">
         {judges.map((judge) => (
           <div
