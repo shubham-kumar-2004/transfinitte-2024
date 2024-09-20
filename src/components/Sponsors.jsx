@@ -44,7 +44,7 @@ const Sponsors = () => {
               <div className='text-offwhite text-right font-geist text-[2rem] not-italic font-normal leading-8'>{category.name}</div>
               <div className='flex items-center justify-around gap-[0.625rem] self-stretch flex-wrap'>
                 {category.data.map((sponsor)=>(
-                  <div key={sponsor.id} className='flex flex-col items-start gap-2 self-stretch'>
+                  <div key={sponsor.id} className='select-none pointer-events-none flex flex-col items-center justify-center gap-2 self-stretch'>
                     <img
                     src={sponsor.imgurl}
                     alt={sponsor.name}

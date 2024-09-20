@@ -14,9 +14,9 @@ mudit,
 geeks,
 netcon,
 boeing,
-charged,
 tezos,
 bharatX,
+pathway,
 crewsphere
 } from "../assets"
 
@@ -84,28 +84,38 @@ export const sponsors = [
         name:'Past Sponsors',
         data:[{
             id:"0",
-            name:'Geeks For Geeks',
-            imgurl:geeks,
-        },
-        {
-            id:"1",
             name:'Netcon',
             imgurl:netcon,
         },
         {
-            id:"2",
+            id:"1",
             name:'Boeing',
             imgurl:boeing,
         },
         {
-            id:"3",
+            id:"2",
             name:'tezos',
             imgurl:tezos,
         },
-        {
+        ,{
+            id:"3",
+            name:'Geeks For Geeks',
+            imgurl:geeks,
+        },
+        ,{
             id:"4",
+            name:'Crewsphere',
+            imgurl:crewsphere,
+        },
+        {
+            id:"5",
             name:'BharatX',
             imgurl:bharatX,
+        },
+        {
+            id:"6",
+            name:'Pathway',
+            imgurl:pathway,
         },
     ],
 }]
