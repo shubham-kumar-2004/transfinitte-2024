@@ -24,7 +24,7 @@ const Sponsors = () => {
                     <img
                     src={sponsor.imgurl}
                     alt={sponsor.name}
-                    className='max-h-[60px] grayscale ' />
+                    className='max-w-[120px] grayscale ' />
                   </div>
                 ))}
               </div>
