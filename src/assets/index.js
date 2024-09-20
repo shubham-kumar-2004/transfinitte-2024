@@ -31,6 +31,7 @@ import arrowbl from './svg/arrowblack.svg'
 import admin from './svg/adminblock.svg'
 import logo from './svg/tlogo.svg'
 import tffooter from './svg/tf-footer.svg'
+import tffootersm from './svg/tf-footer-sm.svg'
 import tfbadge from './svg/tf-badge.svg'
 import instagram from './svg/instagram.svg'
 import linkedin from './svg/linkedin.svg'
@@ -71,6 +72,7 @@ export {
     bharatX,
     crewsphere,
     tffooter,
+    tffootersm,
     instagram,
     linkedin,
     x,
