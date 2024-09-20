@@ -20,9 +20,9 @@ const Header = () => {
   
 
   return (
-    <div>
+    <div className='sticky top-0 z-50'>
       {/* Mobile Version */}
-      <div className='block sm:hidden'>
+      <div className='block sm:hidden relative'>
         <div className='flex items-center justify-between bg-black  shrink-0 w-full border-b-[#EDEDED26] border-b border-solid py-4 px-8 sticky top-0 shadow-md z-50 content-stretch'>
           <img 
           src={tfbadge} 
@@ -42,7 +42,7 @@ const Header = () => {
     
 
     {/* Desktop version */}
-      <div className='hidden sm:flex justify-between items-center h-max py-5 bg-black shrink-0 self-stretch border-b-[#EDEDED26] border-b border-solid pl-12 sticky top-0 shadow-md z-50 content-stretch'>
+      <div className='flex justify-between items-center h-max py-5 bg-black shrink-0 self-stretch border-b-[#EDEDED26] border-b border-solid pl-12 sticky top-0 shadow-md z-50 content-stretch'>
         <div className='w-[15vw]'>
           <Flip/>
         </div>
