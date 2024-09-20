@@ -25,8 +25,8 @@ const Faq = () => {
                     <Accordion type="single" className='w-full text-red-50 ' collapsible>
                         {faqs.map((item) => (
                             <AccordionItem key={item.id} value={`item-${item.id}`} className='w-full'>
-                                <AccordionTrigger className='w-full text-[1.5rem] font-geist'>{item.question}</AccordionTrigger>
-                                <AccordionContent className='w-full text-[1.1rem] text-[#A0A0A0] font-geistmono'>
+                                <AccordionTrigger className='w-full text-[1.5rem] font-geist text-left'>{item.question}</AccordionTrigger>
+                                <AccordionContent className='w-full text-[1.1rem] text-[#A0A0A0] font-geistmono text-left'>
                                     {item.answer}
                                 </AccordionContent>
                             </AccordionItem>

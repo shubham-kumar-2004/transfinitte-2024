@@ -9,10 +9,11 @@ export default {
 			fontFamily: {
 				spacegrotesk: ['Space Grotesk', 'sans-serif'],
 				geistmono: ['Geist Mono'],
-				geist: ['Geist','sans-serif']
+				geist: ['Geist','sans-serif'],
 			},
 			backgroundImage: {
-				'tf-hero': 'linear-gradient(180deg, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0.00) 64.23%)'
+				'tf-hero': 'linear-gradient(180deg, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0.00) 64.23%)',
+				'gradient':'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.50) 73.87%, rgba(0, 0, 0, 0.80) 100%)'
 			},
 			colors: {
 				offwhite: '#EDEDED',

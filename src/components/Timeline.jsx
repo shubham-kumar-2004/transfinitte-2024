@@ -66,7 +66,7 @@ const Timeline = () => {
                 }
                 <div className="flex justify-around flex-wrap gap-5">
                 {item.content.images && item.content.images.map((image, idx) => (
-                  <div className="w-full aspect-auto sm:w-1/2 lg:w-1/3 border border-dashed p-2 border-[#454545]">
+                  <div className="w-full aspect-auto sm:w-1/2 lg:w-1/3">
                   <img
                     key={idx}
                     src={image}
