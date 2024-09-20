@@ -11,7 +11,7 @@ import { faqs } from '@/constants'
 const Faq = () => {
   return (
     <div className='mx-auto bg-black max-w-[93.194%]'>
-        <div className='flex py-9 px-[46px] justify-between items-end border-r border-l border-r-edge border-l-edge'>
+        <div className='flex py-9 px-4 sm:px-[46px] justify-between items-end border-r border-l border-r-edge border-l-edge'>
             <div className='flex w-full h-auto flex-col items-start gap-[37px] flex-shrink-0'>
                 <div className='flex w-auto h-auto items-start'>
                     <div className='flex w-auto h-[73px] flex-col justify-center text-offwhite font-geist text-[3.7rem] font-normal leading-[60px]'>

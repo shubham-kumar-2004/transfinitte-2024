@@ -20,9 +20,9 @@ const Hero = () => {
             className='w-full h-full'
             />
           </div>
-          <div className='mt-[21px]'>
+        </div>
+        <div className='py-[21px] flex justify-center items-center w-full border-l border-r border-b border-b-edge  border-l-edge border-r-edge self-stretch'>
             <Flip/>
-          </div>
         </div>
       </div>
       {/* Desktop Version */}

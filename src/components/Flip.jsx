@@ -68,7 +68,7 @@ const Flip = () => {
   return (
     <div>
         <div ref={dateRef} className='text-[#A1A1A1] font-geistmono text-sm font-normal leading-[17.5px] tracking-[0.35px] uppercase'>
-        OCT 18-20 2024, GJCH
+        OCT 18-20 2024 | GJCH
         </div>
         <div ref={daysLeftRef} className='text-[#A1A1A1] font-geistmono text-sm font-normal leading-[17.5px] tracking-[0.35px] uppercase' style={{ display: 'none' }}>
             {`${daysLeft} days to go...`}

@@ -23,7 +23,7 @@ const Judges = () => {
                     </div>
                     <div className='flex w-full justify-center items-center gap-[0.625rem] flex-wrap'>
                     {judges.map((judge)=>(
-                        <div className='flex content-center items-center w-[45%] aspect-square object-cover relative border border-dashed border-[#454545] cursor-default'
+                        <div className='flex content-center items-center w-[45%] aspect-square object-cover relative border border-dashed border-[#454545] cursor-default gap-[5px] p-[5px]'
                         onMouseEnter={() => setHoveredJudge(judge.id)}
                         onMouseLeave={() => setHoveredJudge(null)}>
                             <div className='flex flex-col justify-start items-start'>

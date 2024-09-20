@@ -14,7 +14,7 @@ const   AboutUs = () => {
                         </div>
                         <div className='flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-geistmono font- leading-[28px]'>(1)</div>
                     </div>
-                    <div className='w-full h-auto border border-dashed rounded-lg p-2 border-[#454545]'>
+                    <div className='w-full h-auto border rounded-[8px   ] p-2 border-[#454545]'>
                             <img
                             src={aboutus}
                             alt='about us'
