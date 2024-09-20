@@ -42,7 +42,7 @@ const Footer = () => {
                     <AlertDialogContent className="w-auto max-w-[90%] opacity-100 bg-offwhite rounded-3xl">
                       <AlertDialogHeader>
                         <AlertDialogDescription>
-                          <div className="flex flex-col items-start gap-4 self-stretch">
+                          <div className="flex flex-col items-center gap-4 self-stretch">
                             <div className="self-stretch text-black font-geist text-[2rem] not-italic font-medium leading-[-0.02rem]">
                               Contact
                             </div>
