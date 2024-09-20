@@ -26,20 +26,20 @@ const Footer = () => {
           <div className="flex justify-center items-center self-stretch border-b border-b-edge">
             <img src={tffootersm} />
           </div>
-          <div className="flex py-0 px-4 flex-col justify-center gap-[0.625rem] self-stretch">
-            <div className="flex w-[77.6%] justify-between items-center gap-[0.625rem]">
-              <div className="w-auto h-auto flex flex-shrink-0 gap-[0.625rem]">
-                <div className="inline-flex p-[0.375rem] justify-center items-center gap-[0.625rem] rounded-full border-[0.5px] border-solid border-footerbutton footer-links hover:underline decoration-white">
+          <div className="flex py-0 px-4 flex-col justify-center gap-[1rem] self-stretch">
+            <div className="flex w-full justify-between items-center gap-[0.625rem]">
+              <div className="w-full h-auto flex justify-between flex-shrink-0 gap-[0.625rem]">
+                <div className="inline-flex px-[0.5rem] py-[0.63rem] justify-center items-center gap-[0.625rem] rounded-full border-[0.5px] border-solid border-footerbutton footer-links hover:underline decoration-white leading-none my-0">
                   <AlertDialog>
                     <AlertDialogTrigger>
                       <div className="flex flex-row gap-1 justify-center items-center">
-                        <div className="text-offwhite text-center font-geistmono text-[0.5rem] not-italic font-bold tracking-[0.35px] uppercase">
+                        <div className="text-offwhite text-center font-geistmono text-[0.875rem] not-italic font-bold tracking-[0.35px] uppercase">
                           Contact
                         </div>
                         <img src={arrowwh} className="w-auto h-2" />
                       </div>
                     </AlertDialogTrigger>
-                    <AlertDialogContent className="w-auto max-w-[90%] opacity-100 bg-offwhite rounded-3xl">
+                    <AlertDialogContent className="w-auto max-w-[90%] opacity-[0.75] bg-offwhite rounded-3xl">
                       <AlertDialogHeader>
                         <AlertDialogDescription>
                           <div className="flex flex-col items-start gap-4 self-stretch">
@@ -67,6 +67,46 @@ const Footer = () => {
                                 <span className="font-light">7760942275</span>
                                 <br />
                               </div>
+                              <div className="flex justify-center items-center w-full">
+                                <div className="flex items-center justify-center gap-3">
+                                  <div className="flex w-fit justify-center items-start gap-3 ">
+                                    <a
+                                      href=""
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                    >
+                                      <img
+                                        src={instagram}
+                                        className="max-w-none w-fit"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div className="flex items-center gap-3">
+                                    <a
+                                      href=""
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                    >
+                                      <img
+                                        src={linkedin}
+                                        className="max-w-none w-fit"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div className="flex items-center gap-3">
+                                    <a
+                                      href=""
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                    >
+                                      <img
+                                        src={x}
+                                        className="max-w-none w-fit"
+                                      />
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </AlertDialogDescription>
@@ -88,9 +128,9 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="inline-flex p-[0.375rem] justify-center items-center gap-[0.625rem] rounded-full border-[0.5px] border-solid border-footerbutton footer-links hover:underline decoration-white">
+                  <div className="inline-flex px-[0.5rem] py-[0.63rem] justify-center items-center gap-[0.625rem] rounded-full border-[0.5px] border-solid border-footerbutton footer-links hover:underline decoration-white leading-none my-0">
                     <div className="flex flex-row gap-1 justify-center items-center">
-                      <div className="text-offwhite text-center font-geistmono text-[0.5rem] not-italic font-bold tracking-[0.35px] uppercase">
+                      <div className="text-offwhite text-center font-geistmono text-[0.875rem] not-italic font-bold tracking-[0.35px] uppercase">
                         Locate US
                       </div>
                       <img src={arrowwh} className="w-auto h-2" />
@@ -102,9 +142,9 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="inline-flex p-[0.375rem] justify-center items-center gap-[0.625rem] rounded-full border-[0.5px] border-solid border-footerbutton footer-links hover:underline decoration-white">
+                  <div className="inline-flex px-[0.5rem] py-[0.63rem] justify-center items-center gap-[0.625rem] rounded-full border-[0.5px] border-solid border-footerbutton footer-links hover:underline decoration-white leading-none my-0">
                     <div className="flex flex-row gap-1 justify-center items-center">
-                      <div className="text-offwhite text-center font-geistmono text-[0.5rem] not-italic font-bold tracking-[0.35px] uppercase">
+                      <div className="text-offwhite text-center font-geistmono text-[0.875rem] not-italic font-bold tracking-[0.35px] uppercase">
                         Archive
                       </div>
                       <img src={arrowwh} className="w-auto h-2" />
@@ -112,7 +152,7 @@ const Footer = () => {
                   </div>
                 </a>
               </div>
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <div className="flex w-fit justify-center items-start gap-3 ">
                   <a href="" target="_blank" rel="noopener noreferrer">
                     <img src={instagram} className="max-w-none w-fit" />
@@ -128,7 +168,7 @@ const Footer = () => {
                     <img src={x} className="max-w-none w-fit" />
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="flex justify-center items-start gap-[0.3125rem]">
               <div className="text-[#A1A1A1] font-geistmono text-[0.75rem] not-italic font-normal leading-normal tracking-[-0.0075rem] uppercase">
@@ -179,7 +219,7 @@ const Footer = () => {
                       <img src={arrowwh} className="max-w-none w-fit" />
                     </div>
                   </AlertDialogTrigger>
-                  <AlertDialogContent className="w-auto max-w-max opacity-100 bg-offwhite rounded-3xl">
+                  <AlertDialogContent className="w-auto max-w-max opacity-[0.75] bg-offwhite rounded-3xl">
                     <AlertDialogHeader>
                       <AlertDialogDescription>
                         <div className="flex flex-col items-center gap-4 self-stretch p-4">
@@ -252,7 +292,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>  
+          </div>
         </div>
       </div>
     </div>

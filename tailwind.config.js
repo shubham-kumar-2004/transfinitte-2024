@@ -9,7 +9,7 @@ export default {
 			fontFamily: {
 				spacegrotesk: ['Space Grotesk', 'sans-serif'],
 				geistmono: ['Geist Mono'],
-				geist: ['Geist','sans-serif'],
+				geist: ['Geist'],
 			},
 			backgroundImage: {
 				'tf-hero': 'linear-gradient(180deg, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0.00) 64.23%)',

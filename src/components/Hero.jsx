@@ -7,8 +7,8 @@ const Hero = () => {
     <div>
       {/* Mobile Version */}
       <div className='block sm:hidden mx-auto bg-black max-w-[91.467%]'>
-        <div className='max-h-screen flex flex-col justify-center items-center flex-shrink-0 border-l border-r border-l-edge border-r-edge py-2 px-3'>
-          <div className='w-full h-full'>
+        <div className='max-h-screen flex flex-col justify-center items-center flex-shrink-0 border-l border-r border-l-edge border-r-edge py-2'>
+          <div className='w-full h-full px-3'>
             <img 
             src={tfherosm}
             className='w-full h-full'

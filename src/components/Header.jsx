@@ -13,7 +13,7 @@ const Header = () => {
         backgroundColor: '#EDEDED', 
         color: '#000',    
         padding: '16px',  
-        font: 'Geist',  
+        font: 'Geist', 
       },
     });
   };
@@ -23,7 +23,7 @@ const Header = () => {
     <div className='sticky top-0 z-50'>
       {/* Mobile Version */}
       <div className='block sm:hidden relative'>
-        <div className='flex items-center justify-between bg-black  shrink-0 w-full border-b-[#EDEDED26] border-b border-solid py-4 px-8 sticky top-0 shadow-md z-50 content-stretch'>
+        <div className='flex items-center justify-between bg-black shrink-0 w-full border-b-[#EDEDED26] border-b border-solid py-4 px-8 sticky top-0 shadow-md z-50 content-stretch'>
           <img 
           src={tfbadge} 
           />
