@@ -33,11 +33,8 @@ const Judges = () => {
                                     alt={judge.name}
                                     width='100%'
                                     height='100%'
-                                    className={`object-cover w-full h-full grayscale transition-transform duration-300 ${hoveredJudge === judge.id ? 'grayscale-0 scale-105' : 'grayscale' }`}/>
+                                    className={`object-cover w-full h-full grayscale transition-transform duration-300  }`}/>
                                 </div>
-                                <div
-                                    className={`absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70 transition-opacity duration-300 ${hoveredJudge === judge.id ? 'opacity-100' : 'opacity-70'}`}
-                                />
                                 <div className='text-offwhite font-geistmono text-[0.813rem] font-normal uppercase text-left bg-transparent select-none cursor-default p-1'>
                                     <div className='flex flex-col gap-[0.3125rem]'>
                                         <div>{judge.name}</div>
