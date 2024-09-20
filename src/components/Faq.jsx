@@ -14,7 +14,7 @@ const Faq = () => {
         <div className='flex py-9 px-4 sm:px-[46px] justify-between items-end border-r border-l border-r-edge border-l-edge'>
             <div className='flex w-full h-auto flex-col items-start gap-[37px] flex-shrink-0'>
                 <div className='flex w-auto h-auto items-start'>
-                    <div className='flex w-auto h-[73px] flex-col justify-center text-offwhite font-geist text-[3.7rem] font-normal leading-[60px]'>
+                    <div className='flex w-auto h-[73px] flex-col justify-center text-offwhite font-geist text-[2rem] sm:text-[3.7rem] font-normal leading-[60px]'>
                         FAQs
                     </div>
                     <div className='flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-geistmono font-medium leading-[28px]'>

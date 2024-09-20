@@ -7,14 +7,14 @@ const   AboutUs = () => {
         {/* Mobile Version */}
         <div className='block sm:hidden mx-auto bg-black max-w-[91.467%]'>
             <div className='max-h-screen flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 border-l border-r border-l-edge border-r-edge py-6 px-4'>
-                <div className='flex items-start content-start gap-y-6 gap-x-9 flex-1 flex-shrink-0 basis-0 flex-wrap'>
+                <div className='flex items-start content-start gap-y-6 gap-x-9 flex-1 py-2 flex-shrink-0 basis-0 flex-wrap'>
                     <div className='flex w-auto h-auto items-start'>
                         <div className='flex w-auto h-fit flex-col justify-center text-offwhite font-geist text-[2rem] font-normal leading-[60px] tracking-[-2.56px]'>
                         About us
                         </div>
                         <div className='flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-geistmono font- leading-[28px]'>(1)</div>
                     </div>
-                    <div className='w-full h-auto border rounded-[8px   ] p-2 border-[#454545]'>
+                    <div className='w-full h-auto border rounded-[8px] p-2 border-[#454545]'>
                             <img
                             src={aboutus}
                             alt='about us'

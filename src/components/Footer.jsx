@@ -23,7 +23,7 @@ const Footer = () => {
       {/* Mobile Version */}
       <div className="block sm:hidden mx-auto bg-black max-w-full">
         <div className="max-h-screen flex flex-col justify-center items-start flex-shrink-0 border-l border-r border-b border-l-edge border-r-edge border-b-edge w-[93.192%] mx-auto mb-4 py-[0.625rem] px-0 gap-4">
-          <div className="flex justify-center items-center self-stretch border-b border-b-edge">
+          <div className="flex justify-center items-center self-stretch py-[0.15rem]">
             <img src={tffootersm} />
           </div>
           <div className="flex py-0 px-4 flex-col justify-center gap-[1rem] self-stretch">
@@ -39,7 +39,7 @@ const Footer = () => {
                         <img src={arrowwh} className="w-auto h-2" />
                       </div>
                     </AlertDialogTrigger>
-                    <AlertDialogContent className="w-auto max-w-[90%] opacity-[0.75] bg-offwhite rounded-3xl">
+                    <AlertDialogContent className="w-auto max-w-[90%] opacity-100 bg-offwhite rounded-3xl">
                       <AlertDialogHeader>
                         <AlertDialogDescription>
                           <div className="flex flex-col items-start gap-4 self-stretch">
@@ -219,7 +219,7 @@ const Footer = () => {
                       <img src={arrowwh} className="max-w-none w-fit" />
                     </div>
                   </AlertDialogTrigger>
-                  <AlertDialogContent className="w-auto max-w-max opacity-[0.75] bg-offwhite rounded-3xl">
+                  <AlertDialogContent className="w-auto max-w-max opacity-100 bg-offwhite rounded-3xl">
                     <AlertDialogHeader>
                       <AlertDialogDescription>
                         <div className="flex flex-col items-center gap-4 self-stretch p-4">
