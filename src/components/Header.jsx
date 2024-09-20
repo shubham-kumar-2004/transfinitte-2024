@@ -42,7 +42,7 @@ const Header = () => {
     
 
     {/* Desktop version */}
-      <div className='flex justify-between items-center h-max py-5 bg-black shrink-0 self-stretch border-b-[#EDEDED26] border-b border-solid pl-12 sticky top-0 shadow-md z-50 content-stretch'>
+      <div className='hidden sm:flex justify-between items-center h-max py-5 bg-black shrink-0 self-stretch border-b-[#EDEDED26] border-b border-solid pl-12 sticky top-0 shadow-md z-50 content-stretch'>
         <div className='w-[15vw]'>
           <Flip/>
         </div>

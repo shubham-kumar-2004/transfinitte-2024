@@ -25,7 +25,7 @@ function App() {
               <AboutUs />
               <Judges />
               <Sponsors />
-              <Timeline />
+              {/* <Timeline /> */}
               <Faq />
               <Footer />
               <Toaster />

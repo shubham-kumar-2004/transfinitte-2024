@@ -54,7 +54,7 @@ const   AboutUs = () => {
                         This isn't just a competition—it's a platform to create real solutions and make an impact. Join us, and be a part of something that truly matters.
                         </div>
                     </div>
-                    <div className='w-1/2 h-auto border border-dashed p-2 border-[#454545] rounded-lg'>
+                    <div className='w-1/2 h-auto border border-dashed p-2 border-[#454545] rounded-[4px]'>
                             <img
                             src={aboutus}
                             alt='about us'
