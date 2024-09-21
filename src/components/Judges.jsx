@@ -18,7 +18,7 @@ const Judges = () => {
           </div>
           <div className="flex h-fit items-start self-stretch">
             <div className="text-[#EDEDED] font-geist text-[2rem] font-normal leading-[60px] tracking-[-2.56px]">
-              Judges
+              Past Judges
             </div>
             <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-geistmono text-[1.125rem] not-italic font-normal leading-[28px] ">
               (2)
@@ -66,8 +66,8 @@ const Judges = () => {
           <div className="flex w-[86%] justify-start items-start gap-[187.4px] flex-shrink-0 ">
             <div className="flex w-1/4 flex-col justify-start items-start gap-[84px] flex-shrink-0">
               <div className="flex h-fit items-start self-stretch">
-                <div className="text-[#EDEDED] font-geist text-[4rem] font-normal leading-[60px]">
-                  Judges
+                <div className="text-[#EDEDED] font-geist text-[4rem] font-normal leading-[60px] whitespace-nowrap">
+                  Past Judges
                 </div>
                 <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-geistmono text-[1.125rem] not-italic font-normal leading-[28px] ">
                   (2)

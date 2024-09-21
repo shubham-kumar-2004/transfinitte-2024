@@ -16,7 +16,7 @@ const Venue = ({ pin }) => {
         scrollTrigger: {
           trigger: ".venue",
           scroller: "body",
-          start: "top 50%",
+          start: "top 15%",
           end: "top -200%",
           scrub: 2,
           pin: `.${pin}`,
@@ -28,7 +28,7 @@ const Venue = ({ pin }) => {
         scrollTrigger: {
           trigger: ".venue",
           scroller: "body",
-          start: "top 50%",
+          start: "top 15%",
           end: "top -200%",
           scrub: 2,
           pin: `.${pin}`,
@@ -50,7 +50,7 @@ const Venue = ({ pin }) => {
         {judges.map((judge) => (
           <div
             key={judge.id}
-            className="flex w-[18.75rem] aspect-[3/2] p-2 items-start gap-2 rounded-[0.5rem] object-cover relative border border-dashed border-[#454545] cursor-default select-none"
+            className="flex w-[21rem] sm:w-[18.75rem] aspect-[3/2] p-2 items-start gap-2 rounded-[0.5rem] object-cover relative border border-dashed border-[#454545] cursor-default select-none"
           >
             <div></div>
           </div>
