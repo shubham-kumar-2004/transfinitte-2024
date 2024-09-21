@@ -37,6 +37,7 @@ const Venue = ({ pin }) => {
         // },
       // // });
     // }
+    
     gsap.to(".slideshow", {
       x: "-90%",
       scrollTrigger: {
