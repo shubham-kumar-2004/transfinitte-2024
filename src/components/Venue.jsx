@@ -19,6 +19,7 @@ const Venue = ({ pin }) => {
           start: "top 15%",
           end: "top -200%",
           scrub: 2,
+          markers:true,
           pin: `.${pin}`,
         },
       });
@@ -31,6 +32,7 @@ const Venue = ({ pin }) => {
           start: "top 15%",
           end: "top -200%",
           scrub: 2,
+          markers:true,
           pin: `.${pin}`,
         },
       });
