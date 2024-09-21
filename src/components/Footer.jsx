@@ -33,7 +33,7 @@ const Footer = () => {
                   <AlertDialog>
                     <AlertDialogTrigger>
                       <div className="flex flex-row gap-1 justify-center items-center">
-                        <div className="text-offwhite text-center font-geistmono text-[0.875rem] not-italic font-bold tracking-[0.35px] uppercase">
+                        <div className="text-offwhite text-center font-spacemono text-[0.875rem] not-italic font-bold tracking-[0.35px] uppercase">
                           Contact
                         </div>
                         <img src={arrowwh} className="w-auto h-2" />
@@ -43,20 +43,20 @@ const Footer = () => {
                       <AlertDialogHeader>
                         <AlertDialogDescription>
                           <div className="flex flex-col items-center gap-4 self-stretch">
-                            <div className="self-stretch text-black font-geist text-[2rem] not-italic font-medium leading-[-0.02rem]">
+                            <div className="self-stretch text-black font-spacegrotesk text-[2rem] not-italic font-medium leading-[-0.02rem]">
                               Contact
                             </div>
                             <div className="flex flex-col items-start gap-[6px] self-stretch">
-                              <div className="self-stretch text-black font-geist text-[1rem] not-italic font-light leading-[-0.015rem]">
+                              <div className="self-stretch text-black font-spacegrotesk text-[1rem] not-italic font-light leading-[-0.015rem]">
                                 Work inquires:{" "}
                                 <span className="font-bold text-wrap">
                                   technicalcouncil@pragyan.org
                                 </span>
                               </div>
-                              <div className="self-stretch text-black font-geist text-[0.825rem] not-italic font-bold leading-normal tracking-[-0.011rem]">
+                              <div className="self-stretch text-black font-spacegrotesk text-[0.825rem] not-italic font-bold leading-normal tracking-[-0.011rem]">
                                 Technical Council of NIT Trichy
                               </div>
-                              <div className="self-stretch text-black font-geist text-[0.825rem] not-italic font-bold leading-normal tracking-[-0.011rem]">
+                              <div className="self-stretch text-black font-spacegrotesk text-[0.825rem] not-italic font-bold leading-normal tracking-[-0.011rem]">
                                 Samarth{" "}
                                 <span className="font-light">9670664115</span>
                                 <br />
@@ -114,7 +114,7 @@ const Footer = () => {
                       <AlertDialogFooter>
                         <AlertDialogAction>
                           <div className="flex flex-row gap-1 justify-center items-center border-solid border-footerbutton border-black border-2 p-2 rounded-3xl px-5 footer-links py-[6px] ">
-                            <div className="text-black  text-center font-geistmono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase ">
+                            <div className="text-black  text-center font-spacemono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase ">
                               Continue
                             </div>
                           </div>
@@ -130,7 +130,7 @@ const Footer = () => {
                 >
                   <div className="inline-flex px-[0.5rem] py-[0.63rem] justify-center items-center gap-[0.625rem] rounded-full border-[0.5px] border-solid border-footerbutton footer-links hover:underline decoration-white leading-none my-0">
                     <div className="flex flex-row gap-1 justify-center items-center">
-                      <div className="text-offwhite text-center font-geistmono text-[0.875rem] not-italic font-bold tracking-[0.35px] uppercase">
+                      <div className="text-offwhite text-center font-spacemono text-[0.875rem] not-italic font-bold tracking-[0.35px] uppercase">
                         Locate US
                       </div>
                       <img src={arrowwh} className="w-auto h-2" />
@@ -144,7 +144,7 @@ const Footer = () => {
                 >
                   <div className="inline-flex px-[0.5rem] py-[0.63rem] justify-center items-center gap-[0.625rem] rounded-full border-[0.5px] border-solid border-footerbutton footer-links hover:underline decoration-white leading-none my-0">
                     <div className="flex flex-row gap-1 justify-center items-center">
-                      <div className="text-offwhite text-center font-geistmono text-[0.875rem] not-italic font-bold tracking-[0.35px] uppercase">
+                      <div className="text-offwhite text-center font-spacemono text-[0.875rem] not-italic font-bold tracking-[0.35px] uppercase">
                         Archive
                       </div>
                       <img src={arrowwh} className="w-auto h-2" />
@@ -171,7 +171,7 @@ const Footer = () => {
               </div> */}
             </div>
             <div className="flex justify-center items-start gap-[0.3125rem]">
-              <div className="text-[#A1A1A1] font-geistmono text-[0.75rem] not-italic font-normal leading-normal tracking-[-0.0075rem] uppercase">
+              <div className="text-[#A1A1A1] font-spacemono text-[0.75rem] not-italic font-normal leading-normal tracking-[-0.0075rem] uppercase">
                 © 2024 TRANSFINITTE. All Rights Reserved.
               </div>
             </div>
@@ -186,7 +186,7 @@ const Footer = () => {
           </div>
           <div className="w-full h-[1.25rem] flex py-0 px-[46px] justify-between items-center self-stretch">
             <div className="flex justify-center items-center gap-[5px]">
-              <div className="text-[#A1A1A1] font-geistmono text-[1rem] not-italic font-normal leading-normal tracking-[-0.01rem] uppercase">
+              <div className="text-[#A1A1A1] font-spacemono text-[1rem] not-italic font-normal leading-normal tracking-[-0.01rem] uppercase">
                 © 2024 TRANSFINITTE. All Rights Reserved.
               </div>
               <div className="flex w-fit pb-1 justify-center items-start gap-3 ">
@@ -213,7 +213,7 @@ const Footer = () => {
                 <AlertDialog>
                   <AlertDialogTrigger>
                     <div className="flex flex-row gap-1 justify-center items-center">
-                      <div className="text-offwhite text-center font-geistmono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase">
+                      <div className="text-offwhite text-center font-spacemono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase">
                         Contact
                       </div>
                       <img src={arrowwh} className="max-w-none w-fit" />
@@ -223,20 +223,20 @@ const Footer = () => {
                     <AlertDialogHeader>
                       <AlertDialogDescription>
                         <div className="flex flex-col items-center gap-4 self-stretch p-4">
-                          <div className="self-stretch text-black font-geistmono text-[2rem] not-italic font-medium leading-[-0.02rem]">
+                          <div className="self-stretch text-black font-spacemono text-[2rem] not-italic font-medium leading-[-0.02rem]">
                             Contact
                           </div>
                           <div className="flex flex-col items-start gap-[6px] self-stretch">
-                            <div className="self-stretch text-black font-geistmono text-[1.5rem] not-italic font-light leading-[-0.015rem]">
+                            <div className="self-stretch text-black font-spacemono text-[1.5rem] not-italic font-light leading-[-0.015rem]">
                               Work inquires:{" "}
                               <span className="font-bold">
                                 technicalcouncil@pragyan.org
                               </span>
                             </div>
-                            <div className="self-stretch text-black font-geistmono text-[1.125rem] not-italic font-bold leading-normal tracking-[-0.011rem]">
+                            <div className="self-stretch text-black font-spacemono text-[1.125rem] not-italic font-bold leading-normal tracking-[-0.011rem]">
                               Technical Council of NIT Trichy
                             </div>
-                            <div className="self-stretch text-black font-geistmono text-[1.125rem] not-italic font-bold leading-normal tracking-[-0.011rem]">
+                            <div className="self-stretch text-black font-spacemono text-[1.125rem] not-italic font-bold leading-normal tracking-[-0.011rem]">
                               Samarth{" "}
                               <span className="font-light">9670664115</span>
                               <br />
@@ -254,7 +254,7 @@ const Footer = () => {
                     <AlertDialogFooter>
                       <AlertDialogAction>
                         <div className="flex flex-row gap-1 justify-center items-center rounded-full border border-solid border-footerbutton footer-links py-[6px] px-3">
-                          <div className="text-black text-center font-geistmono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase border-black border-2 p-2 rounded-3xl px-5">
+                          <div className="text-black text-center font-spacemono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase border-black border-2 p-2 rounded-3xl px-5">
                             Continue
                           </div>
                         </div>
@@ -265,7 +265,7 @@ const Footer = () => {
               </div>
               <div className="flex py-[6px] px-3 justify-center items-center gap-[10px] rounded-full border border-solid border-footerbutton footer-links hover:underline decoration-white">
                 <div className="flex flex-row gap-1 justify-center items-center">
-                  <div className="text-offwhite text-center font-geistmono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase">
+                  <div className="text-offwhite text-center font-spacemono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase">
                     <a
                       href="https://maps.app.goo.gl/oqqeVqML8Fb2Pdr57"
                       target="_blank"
@@ -279,7 +279,7 @@ const Footer = () => {
               </div>
               <div className="flex py-[6px] px-3 justify-center items-center gap-[10px] rounded-full border border-solid border-footerbutton footer-links hover:underline decoration-white">
                 <div className="flex flex-row gap-1 justify-center items-center">
-                  <div className="text-offwhite text-center font-geistmono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase">
+                  <div className="text-offwhite text-center font-spacemono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase">
                     <a
                       href="https://drive.google.com/file/d/1jjjwgRhEHz8pLegoh0GjU5KTq7Ni5zAs/view"
                       target="_blank"

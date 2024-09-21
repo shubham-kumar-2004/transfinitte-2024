@@ -9,10 +9,10 @@ const AboutUs = () => {
         <div className="max-h-screen flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 border-l border-r border-l-edge border-r-edge py-6 px-4">
           <div className="flex items-start content-start gap-y-6 gap-x-9 flex-1 py-2 flex-shrink-0 basis-0 flex-wrap">
             <div className="flex w-auto h-auto items-start">
-              <div className="flex w-auto h-fit flex-col justify-center text-offwhite font-geist text-[2rem] font-normal leading-[60px] tracking-[-2.56px]">
+              <div className="flex w-auto h-fit flex-col justify-center text-offwhite font-spacegrotesk text-[2rem] font-normal leading-[60px] tracking-[-2.56px]">
                 About us
               </div>
-              <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-geistmono font- leading-[28px]">
+              <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-spacemono leading-[28px]">
                 (1)
               </div>
             </div>
@@ -26,7 +26,7 @@ const AboutUs = () => {
               />
             </div>
             <div className="flex flex-col content-center items-center gap-[0.625rem] flex-1 flex-shrink-0 basis-0">
-              <div className="max-w-fit h-auto text-[#A0A0A0] font-geistmono text-[0.813rem] text-justify leading-[18px] tracking-[0.6px] self-stretch">
+              <div className="max-w-fit h-auto text-[#A0A0A0] font-spacemono text-[0.813rem] text-justify leading-[18px] tracking-[0.6px] self-stretch">
                 Welcome to TransfiNITTe'24, NIT Trichy's premier hackathon,
                 hosted by the Technical Council and SCIENT. This is where
                 innovation meets action.
@@ -53,14 +53,14 @@ const AboutUs = () => {
           <div className="flex flex-row gap-12">
             <div className="flex max-w-[50%] h-auto flex-col items-start gap-[37px] flex-shrink-0">
               <div className="flex w-auto h-auto items-start">
-                <div className="flex w-auto h-fit flex-col justify-center text-offwhite font-geist text-[3rem] font-normal leading-[60px]">
+                <div className="flex w-auto h-fit flex-col justify-center text-offwhite font-spacegrotesk text-[3rem] font-normal leading-[60px]">
                   About us
                 </div>
-                <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-geistmono font- leading-[28px]">
+                <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-spacemono leading-[28px]">
                   (1)
                 </div>
               </div>
-              <div className="max-w-fit h-auto text-[#A0A0A0] font-geistmono text-[1rem] ">
+              <div className="max-w-fit h-auto text-[#A0A0A0] font-spacemono text-[1rem] ">
                 Welcome to TransfiNITTe'24, NIT Trichy's premier hackathon,
                 hosted by the Technical Council and SCIENT. This is where
                 innovation meets action.
