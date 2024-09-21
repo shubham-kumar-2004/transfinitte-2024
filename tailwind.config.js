@@ -7,9 +7,9 @@ export default {
   	theme: {
 		extend: {
 			fontFamily: {
-				spacegrotesk: ['Space Grotesk', 'sans-serif'],
-				geistmono: ['Geist Mono'],
-				geist: ['Geist'],
+				spacegrotesk: ['var(--font-space-grotesk)'],
+				geistmono: ['var(--font-geist-mono)'],
+				geist: ['var(--font-geist)'],
 			},
 			backgroundImage: {
 				'tf-hero': 'linear-gradient(180deg, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0.00) 64.23%)',

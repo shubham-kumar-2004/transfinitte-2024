@@ -4,12 +4,12 @@
 
 @layer base {
   @font-face {
-    font-family: 'Space Grotesk';
+    font-family: 'SpaceGrotesk';
     src: url('./assets/fonts/SpaceGrotesk-Regular.woff') format('woff');
     font-weight: normal;
   };
   @font-face {
-    font-family: 'Geist Mono';
+    font-family: 'GeistMono';
     src: url('./assets/fonts/GeistMono-Regular.woff') format('woff'),
           url('./assets/fonts/GeistMono-Regular.woff2') format('woff2');
     font-weight: normal;
@@ -23,6 +23,9 @@
     font-weight: normal;
   };
   :root {
+    --font-geist-Mono: 'GeistMono';
+    --font-geist: 'Geist';
+    --font-space-grotesk: 'SpaceGrotesk';
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
