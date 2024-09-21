@@ -45,7 +45,7 @@ const Venue = ({ pin }) => {
         start: "top 15%",
         end: "top -100%",
         scrub: 2,
-        markers:true,
+        // markers:true,
         pin: `.${pin}`,
       },
     });
