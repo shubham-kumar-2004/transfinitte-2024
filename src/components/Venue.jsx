@@ -12,7 +12,7 @@ const Venue = ({ pin }) => {
     const isMobile = window.innerWidth < 640;
     if (isMobile) {
       gsap.to(".slideshow", {
-        x: "-88%",
+        x: "-90%",
         scrollTrigger: {
           trigger: ".venue",
           scroller: "body",
