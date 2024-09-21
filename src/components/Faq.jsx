@@ -13,14 +13,14 @@ const Faq = () => {
       <div className="flex py-9 px-4 sm:px-[46px] justify-between items-end border-r border-l border-r-edge border-l-edge">
         <div className="flex w-full h-auto flex-col items-start gap-[37px] flex-shrink-0">
           <div className="flex w-auto h-auto items-start">
-            <div className="flex w-auto h-[73px] flex-col justify-center text-offwhite font-geist text-[2rem] sm:text-[3.7rem] font-normal leading-[60px]">
+            <div className="flex w-auto h-[73px] flex-col justify-center text-offwhite font-spacegrotesk text-[2rem] sm:text-[3.7rem] font-normal leading-[60px]">
               FAQs
             </div>
-            <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-geistmono font-medium leading-[28px]">
+            <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-spacemono font-medium leading-[28px]">
               (4)
             </div>
           </div>
-          <div className="w-full text-[#A0A0A0] font-geistmono text-[1rem]">
+          <div className="w-full text-[#A0A0A0] font-spacemono text-[1rem]">
             <Accordion
               type="single"
               className="w-full text-red-50 "
@@ -32,10 +32,10 @@ const Faq = () => {
                   value={`item-${item.id}`}
                   className="w-full"
                 >
-                  <AccordionTrigger className="w-full text-[1.25rem] sm:text-[1.5rem] font-geist text-left">
+                  <AccordionTrigger className="w-full text-[1.25rem] sm:text-[1.5rem] font-spacegrotesk text-left">
                     {item.question}
                   </AccordionTrigger>
-                  <AccordionContent className="w-full text-[1rem] sm:text-[1.1rem] text-[#A0A0A0] font-geistmono text-left">
+                  <AccordionContent className="w-full text-[1rem] sm:text-[1.1rem] text-[#A0A0A0] font-spacemono text-left">
                     {item.answer}
                   </AccordionContent>
                 </AccordionItem>

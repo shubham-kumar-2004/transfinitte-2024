@@ -6,15 +6,14 @@ import Flip from "./Flip";
 
 const Header = () => {
   const handleClick = () => {
-    console.log("Lets see");
     toast("Coming Soon", {
       description: "Tuesday, 8 October 2024, 9:00 AM", // Custom style for description
       style: {
         backgroundColor: "#EDEDED",
         color: "#000",
         padding: "16px",
-        font: "Geist",
       },
+      className: "font-spacemono"
     });
   };
 
@@ -26,7 +25,7 @@ const Header = () => {
           <img src={tfbadge} />
           <Button variant="outline" onClick={handleClick}>
             <div className="flex flex-row gap-1 justify-center items-center bg-offwhite px-2 py-0 rounded-full hover:underline decoration-black">
-              <div className="text-black text-center font-geistmono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase bg-offwhite">
+              <div className="text-black text-center font-spacemono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase bg-offwhite">
                 REGISTER
               </div>
               <div>
@@ -60,7 +59,7 @@ const Header = () => {
             className="hover:underline decoration-white"
           >
             <button className="flex flex-row gap-1 justify-center items-center">
-              <div className="text-offwhite text-center font-geistmono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase">
+              <div className="text-offwhite text-center font-spacemono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase">
                 INSTAGRAM
               </div>
               <div>
@@ -70,7 +69,7 @@ const Header = () => {
           </a>
           <Button variant="outline" onClick={handleClick}>
             <div className="flex flex-row gap-1 justify-center items-center bg-offwhite px-5 py-2 rounded-full hover:underline decoration-black">
-              <div className="text-black text-center font-geistmono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase bg-offwhite">
+              <div className="text-black text-center font-spacemono text-[0.875rem] not-italic font-bold leading-5 tracking-[0.35px] uppercase bg-offwhite">
                 REGISTER
               </div>
               <div>
