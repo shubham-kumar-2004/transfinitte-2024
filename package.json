@@ -25,7 +25,6 @@
     "framer-motion": "^11.5.4",
     "glsl-rotate": "^2.0.1",
     "gsap": "^3.12.5",
-    "lenis": "^1.1.13",
     "lil-gui": "^0.19.2",
     "lucide-react": "^0.439.0",
     "next-themes": "^0.3.0",

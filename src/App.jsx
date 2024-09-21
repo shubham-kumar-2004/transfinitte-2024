@@ -14,15 +14,15 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
       <div className="pin-venue">
+        <Hero />
         <AboutUs />
         <Venue pin="pin-venue" />
         <Judges />
+        <Sponsors />
+        <Faq />
+        <Footer />
       </div>
-      <Sponsors />
-      <Faq />
-      <Footer />
     </>
   );
 }
