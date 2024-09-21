@@ -9,37 +9,50 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Venue = ({ pin }) => {
   useGSAP(() => {
-    const isMobile = window.innerWidth < 640;
-    if (isMobile) {
-      gsap.to(".slideshow", {
-        x: "-90%",
-        scrollTrigger: {
-          trigger: ".venue",
-          scroller: "body",
-          start: "top 15%",
-          end: "top -200%",
-          scrub: 2,
-          markers:true,
-          pin: `.${pin}`,
-        },
-      });
-    } else {
-      gsap.to(".slideshow", {
-        x: "-59%",
-        scrollTrigger: {
-          trigger: ".venue",
-          scroller: "body",
-          start: "top 15%",
-          end: "top -200%",
-          scrub: 2,
-          markers:true,
-          pin: `.${pin}`,
-        },
-      });
-    }
+    // const isMobile = window.innerWidth < 640;
+    // if (isMobile) {
+      // gsap.to(".slideshow", {
+        // x: "-90%",
+        // scrollTrigger: {
+          // trigger: ".venue",
+          // scroller: "body",
+          // start: "top 15%",
+          // end: "top -200%",
+          // scrub: 2,
+          // markers:true,
+          // pin: `.${pin}`,
+        // },
+      // });
+    // } else {
+      // gsap.to(".slideshow", {
+        // x: "-59%",
+        // scrollTrigger: {
+          // trigger: ".venue",
+          // scroller: "body",
+          // start: "top 15%",
+          // end: "top -200%",
+          // scrub: 2,
+          // markers:true,
+          // pin: `.${pin}`,
+        // },
+      // // });
+    // }
+    gsap.to(".slideshow", {
+      x: "-90%",
+      scrollTrigger: {
+        trigger: ".venue",
+        // scroller: "body",
+        start: "top 15%",
+        end: "top -100%",
+        scrub: 2,
+        markers:true,
+        pin: `.${pin}`,
+      },
+    });
   });
   return (
     <div className="block mx-auto bg-black overflow-hidden venue max-w-[91.467%] sm:max-w-[93.167%] border-l border-r border-l-edge border-r-edge">
+      {/* <div className="pin-venue"> */}
       <div className="flex h-fit items-start self-stretch mb-6 sm:mb-[4.06rem] ml-6 sm:ml-9">
         <div className="text-[#EDEDED] font-geist text-[2rem] sm:text-[4rem] font-normal leading-[60px]">
           Venue
@@ -58,6 +71,7 @@ const Venue = ({ pin }) => {
           </div>
         ))}
       </div>
+      {/* </div> */}
     </div>
   );
 };
