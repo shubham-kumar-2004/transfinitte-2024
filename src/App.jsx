@@ -12,28 +12,18 @@ import Venue from "./components/Venue";
 
 function App() {
   return (
-    <Router>
-      <Toaster />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Header />
-              <Hero />
-              <div className="pin-venue">
-                <AboutUs />
-                <Venue  pin="pin-venue"/>
-                <Judges />
-              </div>
-              <Sponsors />
-              <Faq />
-              <Footer />
-            </>
-          }
-        />
-      </Routes>
-    </Router>
+    <>
+      <Header />
+      <Hero />
+      <div className="pin-venue">
+        <AboutUs />
+        <Venue pin="pin-venue" />
+        <Judges />
+      </div>
+      <Sponsors />
+      <Faq />
+      <Footer />
+    </>
   );
 }
 
