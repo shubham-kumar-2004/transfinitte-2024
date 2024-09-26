@@ -9,11 +9,11 @@ const Judges = () => {
       <div className="block sm:hidden mx-auto bg-black max-w-[91.467%]">
         <div className="flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 border-l border-r border-l-edge border-r-edge py-6 px-4 ">
           <div className="flex flex-col items-start gap-6 self-stretch">
-            <div className="flex w-full h-auto py-1 px-0 content-center items-center gap-2 self-stretch">
+            {/*<div className="flex w-full h-auto py-1 px-0 content-center items-center gap-2 self-stretch">
               <div className="text-[#EDEDED] font-spacegrotesk text-[2rem] font-normal leading-[36px] tracking-[-1.28px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt
-              </div>
+              </div>*/}
             </div>
           </div>
           <div className="flex h-fit items-start self-stretch">
