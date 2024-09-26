@@ -9,7 +9,7 @@ const AboutUs = () => {
         <div className="max-h-screen flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 border-l border-r border-l-edge border-r-edge py-6 px-4">
           <div className="flex items-start content-start gap-y-6 gap-x-9 flex-1 py-2 flex-shrink-0 basis-0 flex-wrap">
             <div className="flex w-auto h-auto items-start">
-              <div className="flex w-auto h-fit flex-col justify-center text-offwhite font-spacegrotesk text-[4rem] font-normal leading-[60px] tracking-[-2.56px]">
+              <div className="flex w-auto h-fit flex-col justify-center text-offwhite font-spacegrotesk text-[2rem] font-normal leading-[60px] tracking-[-2.56px]">
                 About us
               </div>
               <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-spacemono leading-[28px]">
@@ -53,7 +53,7 @@ const AboutUs = () => {
           <div className="flex flex-row gap-12">
             <div className="flex max-w-[50%] h-auto flex-col items-start gap-[37px] flex-shrink-0">
               <div className="flex w-auto h-auto items-start">
-                <div className="flex w-auto h-fit flex-col justify-center text-offwhite font-spacegrotesk text-[3rem] font-normal leading-[60px]">
+                <div className="flex w-auto h-fit flex-col justify-center text-offwhite font-spacegrotesk text-[4rem] font-normal leading-[60px]">
                   About us
                 </div>
                 <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-spacemono leading-[28px]">
