@@ -69,7 +69,7 @@ const Judges = () => {
                 <div className="text-[#EDEDED] font-spacegrotesk text-[4rem] font-normal leading-[60px] whitespace-nowrap">
                   Past Judges
                 </div>
-                <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-geistmono text-[1.125rem] not-italic font-normal leading-[28px] ">
+                <div className="flex w-auto h-auto flex-col justify-center text-[#A1A1A1] font-spacemono text-[1.125rem] not-italic font-normal leading-[28px] ">
                   (2)
                 </div>
               </div>
