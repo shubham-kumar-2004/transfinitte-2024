@@ -128,6 +128,7 @@ const JudgesDesktop = memo(({ judges, hoveredJudge, setHoveredJudge }) => (
     </div>
   </div>
 ));
+
 const Judges = () => {
   const [hoveredJudge, setHoveredJudge] = useState(null);
   return (

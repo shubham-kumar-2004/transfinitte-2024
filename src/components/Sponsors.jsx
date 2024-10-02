@@ -25,6 +25,7 @@ const SponsorCategory = memo(({ category }) => (
     </div>
   </div>
 ));
+
 const SponsorsMobile = memo(() => (
   <div className="block sm:hidden mx-auto bg-black max-w-[91.467%]">
     <div className="flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 border-l border-r border-l-edge border-r-edge py-6 px-4">
@@ -60,6 +61,7 @@ const SponsorsDesktop = memo(() => (
     </div>
   </div>
 ));
+
 const Sponsors = () => {
   return (
     <div>
