@@ -22,7 +22,7 @@ const Footer = () => {
     <div className="max-w-full">
       {/* Mobile Version */}
       <div className="block sm:hidden mx-auto bg-black max-w-full">
-        <div className="max-h-screen flex flex-col justify-center items-start flex-shrink-0 border-l border-r border-b border-l-edge border-r-edge border-b-edge w-[93.192%] mx-auto mb-4 py-[0.625rem] px-0 gap-4">
+        <div className="max-h-screen flex flex-col justify-center items-start flex-shrink-0 border-l border-r border-b border-l-edge border-r-edge border-b-edge w-[91.467%] mx-auto mb-4 py-[0.625rem] px-0 gap-4">
           <div className="flex justify-center items-center self-stretch py-[0.15rem]">
             <img src={tffootersm} />
           </div>

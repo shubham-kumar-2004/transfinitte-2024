@@ -34,7 +34,7 @@ const FaqAccordion = memo(() => (
 ));
 const Faq = () => {
   return (
-    <div className="mx-auto bg-black max-w-[93.194%]">
+    <div className="mx-auto bg-black max-w-[91.467%] sm:max-w-[93.194%]">
       <div className="flex py-9 px-4 sm:px-[46px] justify-between items-end border-r border-l border-r-edge border-l-edge">
         <div className="flex w-full h-auto flex-col items-start gap-[37px] flex-shrink-0">
           <FaqHeader />
