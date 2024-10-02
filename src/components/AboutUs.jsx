@@ -46,7 +46,7 @@ const AboutUsMobile = memo(() => (
 ));
 
 const AboutUsDesktop = memo(() => (
-  <div className="hidden sm:block mx-auto bg-black max-w-[93.194%]">
+  <div className="hidden sm:block mx-auto bg-black max-w-[93.194%] select-none pointer-events-none">
     <div className="flex w-full py-9 px-[46px] justify-between items-end border-r border-l border-r-edge border-l-edge">
       <div className="flex flex-row gap-12">
         <div className="flex max-w-[50%] h-auto flex-col items-start gap-[37px] flex-shrink-0">
@@ -75,7 +75,7 @@ const AboutUsDesktop = memo(() => (
             that truly matters.
           </div>
         </div>
-        <div className="w-1/2 h-auto border border-dashed p-2 border-[#454545] rounded-[4px]">
+        <div className="w-1/2 h-auto border border-dashed p-2 border-[#454545] rounded-[4px] select-none pointer-events-none">
           <img
             src={aboutus}
             alt="about us"

@@ -64,7 +64,7 @@ const SponsorsDesktop = memo(() => (
 
 const Sponsors = () => {
   return (
-    <div>
+    <div className="select-none">
       <Suspense fallback={<div>Loading...</div>}>
         <SponsorsMobile />
         <SponsorsDesktop />

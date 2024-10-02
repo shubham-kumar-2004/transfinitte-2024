@@ -43,9 +43,11 @@ const HeroDesktop = memo(() => (
 ));
 const Hero = () => {
   return (
-    <div>
-      <HeroMobile />
-      <HeroDesktop />
+    <div className="select-none pointer-events-none">
+      <Suspense fallback={<div>Loading...</div>}>
+        <HeroMobile />
+        <HeroDesktop />
+      </Suspense>
     </div>
   );
 };

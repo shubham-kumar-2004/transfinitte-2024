@@ -33,8 +33,11 @@ import tffooter from './svg/tf-footer.svg'
 import tffootersm from './svg/tf-footer-sm.svg'
 import tfbadge from './svg/tf-badge.svg'
 import instagram from './svg/instagram.svg'
+import instagramwh from './svg/instagramwh.svg'
 import linkedin from './svg/linkedin.svg'
+import linkedinwh from './svg/linkedinwh.svg'
 import x from './svg/x.svg'
+import xwh from './svg/xwh.svg'
 
 
 export {
@@ -69,7 +72,10 @@ export {
     tffooter,
     tffootersm,
     instagram,
+    instagramwh,
     linkedin,
+    linkedinwh,
     x,
-    tfbadge
+    xwh,
+    tfbadge,
     };

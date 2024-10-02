@@ -132,7 +132,7 @@ const JudgesDesktop = memo(({ judges, hoveredJudge, setHoveredJudge }) => (
 const Judges = () => {
   const [hoveredJudge, setHoveredJudge] = useState(null);
   return (
-    <div>
+    <div className="select-none">
       <Suspense fallback={<div>Loading...</div>}>
         <JudgesMobile judges={judges} />
         <JudgesDesktop

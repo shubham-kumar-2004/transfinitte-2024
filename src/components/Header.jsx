@@ -85,10 +85,13 @@ const Header = memo(() => {
       </div>
     </div>
   ));
+
   return (
-    <div className="sticky top-0 z-50">
-      <HeaderMobile />
-      <HeaderDesktop />
+    <div className="sticky top-0 z-50 select-none">
+      <Suspense fallback={<div>Loading...</div>}>
+        <HeaderMobile />
+        <HeaderDesktop />
+      </Suspense>
     </div>
   );
 });

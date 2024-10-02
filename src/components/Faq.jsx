@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React, { memo, Suspense } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -8,7 +8,7 @@ import {
 import { faqs } from "@/constants";
 
 const FaqHeader = memo(() => (
-  <div className="flex w-auto h-auto items-start">
+  <div className="flex w-auto h-auto items-start select-none pointer-events-none">
     <div className="flex w-auto h-[73px] flex-col justify-center text-offwhite font-spacegrotesk text-[2rem] sm:text-[3.7rem] font-normal leading-[60px]">
       FAQs
     </div>
@@ -34,16 +34,18 @@ const FaqAccordion = memo(() => (
 ));
 const Faq = () => {
   return (
-    <div className="mx-auto bg-black max-w-[91.467%] sm:max-w-[93.194%]">
-      <div className="flex py-9 px-4 sm:px-[46px] justify-between items-end border-r border-l border-r-edge border-l-edge">
-        <div className="flex w-full h-auto flex-col items-start gap-[37px] flex-shrink-0">
-          <FaqHeader />
-          <div className="w-full text-[#A0A0A0] font-spacemono text-[1rem]">
-            <FaqAccordion />
+    <Suspense fallback={<div>Loading...</div>}>
+      <div className="mx-auto bg-black max-w-[91.467%] sm:max-w-[93.194%] select-none">
+        <div className="flex py-9 px-4 sm:px-[46px] justify-between items-end border-r border-l border-r-edge border-l-edge">
+          <div className="flex w-full h-auto flex-col items-start gap-[37px] flex-shrink-0">
+            <FaqHeader />
+            <div className="w-full text-[#A0A0A0] font-spacemono text-[1rem]">
+              <FaqAccordion />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </Suspense>
   );
 };
 
