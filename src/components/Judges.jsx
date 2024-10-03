@@ -52,7 +52,7 @@ const JudgesMobile = memo(({ judges }) => (
                   alt={judge.name}
                   width="100%"
                   height="100%"
-                  className={`object-cover w-full h-full grayscale transition-transform duration-300  }`}
+                  className={`object-cover w-full h-full transition-transform duration-300  }`}
                 />
               </div>
               <div className="text-offwhite font-spacemono text-[0.813rem] font-normal uppercase text-left bg-transparent select-none cursor-default p-1">

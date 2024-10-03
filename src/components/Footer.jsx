@@ -7,8 +7,6 @@ import {
   linkedinwh,
   tffooter,
   tffootersm,
-  x,
-  xwh,
 } from "../assets";
 import {
   AlertDialog,

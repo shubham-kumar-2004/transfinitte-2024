@@ -36,8 +36,6 @@ import instagram from './svg/instagram.svg'
 import instagramwh from './svg/instagramwh.svg'
 import linkedin from './svg/linkedin.svg'
 import linkedinwh from './svg/linkedinwh.svg'
-import x from './svg/x.svg'
-import xwh from './svg/xwh.svg'
 
 
 export {
@@ -75,7 +73,5 @@ export {
     instagramwh,
     linkedin,
     linkedinwh,
-    x,
-    xwh,
     tfbadge,
     };
