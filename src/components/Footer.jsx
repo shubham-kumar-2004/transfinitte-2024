@@ -129,7 +129,7 @@ const FooterMobile = memo(() => (
         </div>
         <div className="flex justify-center items-start gap-[0.3125rem]">
           <div className="text-[#A1A1A1] font-spacemono text-[0.75rem] not-italic font-normal leading-normal tracking-[-0.0075rem] uppercase">
-            © 2024 TRANSFINITTE. All Rights Reserved.
+            TRANSFINITTE 2024. Made with love by the Technical Council of NIT Trichy.
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@ const FooterDesktop = memo(() => (
       <div className="w-full h-[1.25rem] flex py-0 px-[46px] justify-between items-center self-stretch">
         <div className="flex justify-center items-center gap-[5px]">
           <div className="text-[#A1A1A1] font-spacemono text-[1rem] not-italic font-normal leading-normal tracking-[-0.01rem] uppercase">
-            © 2024 TRANSFINITTE. All Rights Reserved.
+            TRANSFINITTE 2024. Made with love by the Technical Council of NIT Trichy.
           </div>
           <div className="flex w-fit pb-1 justify-center items-start gap-3 ">
             <div>
