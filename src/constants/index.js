@@ -191,7 +191,7 @@ export const faqs = [
     id: "10",
     question: "How many teams or people take part in TransfiNITTe?",
     answer:
-      "TransfiNITTe typically hosts around 50 teams, with each team consisting of 4-6 members.",
+      "TransfiNITTe typically hosts around 50 teams, with each team consisting of 4-5 members.",
   },
   {
     id: "11",
