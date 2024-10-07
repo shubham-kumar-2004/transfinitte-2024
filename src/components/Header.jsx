@@ -8,7 +8,7 @@ const Flip = lazy(() => import("./Flip"));
 const Header = memo(() => {
   const handleClick = () => {
     toast("Coming Soon", {
-      description: "Tuesday, 8 October 2024, 9:00 AM", // Custom style for description
+      description: "Tuesday, 8 October 2024, 9:00 PM", // Custom style for description
       style: {
         backgroundColor: "#EDEDED",
         color: "#000",
