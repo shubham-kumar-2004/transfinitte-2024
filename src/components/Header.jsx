@@ -101,8 +101,8 @@ const Header = () => {
           <div className="inline-flex px-[0.5rem] py-[0.63rem] justify-center items-center gap-[0.625rem] rounded-full border-[0.5px] border-solid border-footerbutton footer-links hover:underline decoration-white leading-none my-0">
   <AlertDialog>
     <AlertDialogTrigger asChild>
-      <div className="flex flex-row gap-1 justify-center items-center">
-        <div className="text-offwhite text-center font-spacemono text-[0.875rem] not-italic font-bold tracking-[0.35px] uppercase">
+      <div className="flex flex-row gap-1 justify-center items-center cursor-pointer">
+        <div className="text-offwhite text-center font-spacemono text-[0.875rem] cursor-pointer not-italic font-bold tracking-[0.35px] uppercase">
           REGISTER
         </div>
         <img src={arrowwh} className="w-auto h-2" />
