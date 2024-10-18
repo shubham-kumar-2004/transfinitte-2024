@@ -65,6 +65,9 @@ const Header = () => {
   </AlertDialog>
 </div>
         </div>
+        <div className="bg-white h-20s w-full text-black text-center font-spacemono text-sm py-2">
+          Problem statements are released! View TransfiNITTe'24 problem statements <a href="https://drive.google.com/file/d/1ABFIgrlRrjp29Nm5wRktYCnuqQn5jDBJ/view" className="underline"> here</a>.
+        </div>
       </div>
 
       {/* Desktop version */}
@@ -144,6 +147,9 @@ const Header = () => {
   </AlertDialog>
 </div>
         </div>
+      </div>
+      <div className="bg-white hidden md:block h-20s w-full text-black text-center font-spacemono text-sm py-2">
+        Problem statements are released! View TransfiNITTe'24 problem statements <a href="https://drive.google.com/file/d/1ABFIgrlRrjp29Nm5wRktYCnuqQn5jDBJ/view" className="underline"> here</a>.
       </div>
     </div>
   );
